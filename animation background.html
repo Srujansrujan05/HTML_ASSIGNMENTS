@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>Document</title>
+
+    <style>
+        @keyframes changeimg {
+            0%{background-image: url("pic 1.jpeg");}
+            20%{background-image: url("pic 2.jpeg");}
+            50%{background-image: url("pic 3.jpeg");}
+            100%{background-image: url("pic 5.jpeg");}
+        
+        }
+        body{
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation-name: changeimg; 
+            animation-duration: 20s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;    
+        }
+    </style>
+</head>    
+</html>
